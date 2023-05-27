@@ -1,0 +1,15 @@
+cuda_visible_devices = '3'
+# model_name = 'dmis-lab/biobert-base-cased-v1.1'
+model_name = 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext'
+api_key = '64a17e8c-3406-4dbc-bb2e-1afbe350bc37'
+no_cuda = False
+embbed_size = 768
+max_length = 16
+batch_size = 64
+epochs = 100
+lr = 1e-5
+checkpoint_dir = './checkpoint(SapBERT)_5.26'
+data_path = './dataset'
+seed = 999
+loss_step = 10
+save_step = 20
