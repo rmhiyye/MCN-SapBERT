@@ -13,9 +13,10 @@ python cui2name.py --input_name test_norm
 ```
 
 ### Show NAME-less cui
+This operation will display the CUIs that could not be resolved using the `umls_api`.
 For training set:
 ```python
-python cui2name.py train_norm
+python cui2name.py --input_name train_norm
 ```
 For testing set
 ```python
