@@ -2,7 +2,7 @@
 
 ## Usage
 
-###Convert cui to name
+### Convert cui to name
 For training set:
 ```python
 python cui2name.py --input_name train_norm
